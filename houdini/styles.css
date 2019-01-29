@@ -1,0 +1,19 @@
+h1{
+	font-family: sans-serif;
+}
+.box{
+	width: 600px;
+	height: 600px;
+	border: 1px solid green;
+	transition: --circle-size .3s;
+}
+.pattern{
+	--circle-color: rgba(205, 92, 92, 0.2);
+	--circle-size: 20px;
+	--circle-spacing: 20%;
+	background-image: paint(dots);
+}
+
+.pattern:hover{
+	--circle-size: 60px;
+}
